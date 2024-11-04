@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cadastro-form {
+  width: 620px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #16213e;
+  border-radius: 20px;
+  padding: 25px 0;
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.cadastro-form h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding: 5px 0;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 70%;
+}
+
+.btnDoadorOrAbrigo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.btnDoadorOrAbrigo button {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding: 4px 14px;
+  border-radius: 20px;
+  background-color: rgba(233, 69, 96, 0.5); /* Cor de fundo inicial */
+  margin: 0 3px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.btnDoadorOrAbrigo button.selected {
+  background-color: rgba(233, 69, 96, 1); /* Cor de fundo quando selecionado */
+}
+
+.form {
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0; /* Espaçamento entre os campos */
+}
+
+.input-field input {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-field-end {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.input-field-end input {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.input-field-end h4 {
+  margin: -2px;
+}
+
+.possuiCadastro {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.possuiCadastro a {
+  color: #E94560;
+  text-decoration: none;
+}
+
+.btnCadastrar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnCadastrar button {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #e94560;
+  margin: 10px 0 0 0;
+}

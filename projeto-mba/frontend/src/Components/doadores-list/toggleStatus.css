@@ -1,0 +1,21 @@
+.toggle-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.status-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.received {
+  background-color: red;
+}
+
+.not-received {
+  background-color: gray;
+}

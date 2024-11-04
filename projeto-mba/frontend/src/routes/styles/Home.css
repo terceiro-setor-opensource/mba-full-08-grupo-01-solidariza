@@ -1,0 +1,11 @@
+.home {
+  background: #e7e3e3;
+  height: 100vh;
+}
+
+.outlet {
+  background: white;
+  margin: 15px 20px;
+  padding: 20px;
+  min-height: 80vh;
+}
