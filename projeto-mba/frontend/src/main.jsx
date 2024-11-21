@@ -10,6 +10,8 @@ import ErrorPage from "./routes/ErrorPage.jsx";
 import Home from "./routes/Home.jsx";
 import Login from "./routes/Login.jsx";
 import SignIn from "./routes/SignIn.jsx";
+import Modal from "./Components/modal-abrigo/modalAdd.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,8 +29,15 @@ const router = createBrowserRouter([
       }, 
       {
         path: "/abrigo-list",
-        element: <AbrigoList />,
+        element: <AbrigoList /> ,
+        
+      },
+
+      {
+        path:"/modal-abrigo",
+        element:<Modal/>
       }
+  
     ],
   },
   {

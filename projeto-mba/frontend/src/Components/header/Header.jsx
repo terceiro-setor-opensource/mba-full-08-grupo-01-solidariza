@@ -31,7 +31,7 @@ function Header() {
       </div>
       <div>
         <button  className="btn" onClick={handleLogout}>Sair
-          <i class="fa-solid fa-house"></i>
+          <i className="fa-solid fa-house"></i>
         </button>
         
       </div>

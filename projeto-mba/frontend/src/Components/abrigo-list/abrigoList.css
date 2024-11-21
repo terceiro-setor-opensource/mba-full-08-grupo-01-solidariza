@@ -3,6 +3,33 @@
     --secondary-color: #16213e;
     --text-color: white;
   }
+
+  .btn-abrigo{
+    width: 178px;
+    height: 59.6px;
+    top: 183px;
+    left: 1358px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: #E94560;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+
+
+  }
+
+  .tittle-buttons{
+    display: flex;
+    justify-content: space-between;
+  }
   
   * {
     margin: 0;
